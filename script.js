@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let player1Score = 0;
     let player2Score = 0;
     
-    const winningScore = 5;
+    const winningScore = 50;
 
     function rollDice() {
         let dice1Value = Math.floor(Math.random() * 6) + 1;
